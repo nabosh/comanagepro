@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Landing Page</title>
     <style>
-        body, html {
+        body,
+        html {
             height: 100%;
             margin: 0;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
             background-color: #1f2020;
         }
+
         .centered-text {
             text-align: center;
-            font-size: 2em;
             color: #dbdada;
+            margin: 0;
+        }
+
+        .title {
+            font-size: 2em;
+            letter-spacing: -0.05em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            /* Replaces the <br><br> tags */
+        }
+
+        .subtitle {
+            color: #777;
+            font-size: 22px;
+            line-height: 54px;
         }
     </style>
 </head>
+
 <body>
-    <div class="centered-text">
+    <div class="centered-text title">
         CoManagePro is entering the next chapter
     </div>
-    <br />
-    <p class="centered-text">dustin @ comanagepro.com</p>
+    <p class="centered-text subtitle">dustin @ comanagepro.com</p>
 </body>
+
 </html>
